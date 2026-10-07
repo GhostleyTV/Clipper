@@ -44,3 +44,20 @@ footer {
   color: var(--muted);
   font-size: 0.9rem;
 }
+.callout {
+  margin-top: 2rem;
+  padding: 1.25rem 1.25rem 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+.callout h2 { margin-top: 0; }
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border-radius: 6px;
+  background: var(--link);
+  color: var(--bg);
+  font-weight: 600;
+  text-decoration: none;
+}
+.button:hover, .button:focus-visible { text-decoration: underline; }
